@@ -1,10 +1,13 @@
 ADDRESS BOOK APPLICATION
+
 introduction
 
 This application is to save addresses with coordinates, and to retrive based on the distance
+
 getting started
 
 Create an evironment in your machine
+
 For linux follow steps below:-
 
     - enter into project folder

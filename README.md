@@ -1,14 +1,14 @@
-ADDRESS BOOK APPLICATION
+#ADDRESS BOOK APPLICATION
 
-introduction
+##introduction
 
 This application is to save addresses with coordinates, and to retrive based on the distance
 
-getting started
+##getting started
 
 Create an evironment in your machine
 
-For linux follow steps below:-
+###For linux follow steps below:-
 
     - enter into project folder
     - open terminal
@@ -16,22 +16,22 @@ For linux follow steps below:-
     - irtualenv address_env
     - source address_env/bin/activate
 
-If you are using some other os(follow steps mentioned in the given link.
+###If you are using some other os(follow steps mentioned in the given link.
 
 (https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 For installing reqired libraries
 
     - pip3 install -r requirements.py
 
-For starting the project:-
+###For starting the project:-
 
     - uvicorn address_book.main:app --reload
 
-Use below swagger docs for accessing CRUD API’s
+###Use below swagger docs for accessing CRUD API’s
 
     -> http://127.0.0.1:8000/docs#/
 
-Available API’s
+###Available API’s
 
     - Create address  http://127.0.0.1:8000/create-address/
     - Get all address  http://127.0.0.1:8000/get-address/
